@@ -1,0 +1,100 @@
+
+body {
+    background-color: rgb(226, 220, 231);
+    color: #063550;
+    min-height: 100vh;
+    font-family: 'Quantico', sans-serif;
+
+    h1, h2, p {
+        font-family: 'Quantico', sans-serif; 
+    }
+}
+/* Container styling */
+.back-home {
+    margin: 2em 0;      
+}
+.back-home a {
+    text-decoration: none;     
+    color: #063550;           
+    font-weight: bold;
+    font-size: 1.2em;         
+}
+.back-home a:hover {
+    text-decoration: underline; 
+}
+
+
+.container {
+    max-width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 2em;
+}
+
+.weeks-container {
+    display: flex;
+    flex-direction: column; 
+    gap: 0.5em;          
+    margin-top: 2em;
+}
+
+.weeks-row {
+    display: flex;          
+    gap: 1em;               
+    list-style: none;        
+    padding: 0;
+    margin: 0;
+}
+
+.weeks-row a {
+    text-decoration: none;   
+    color: #063550;
+    font-size: 2.5em;       
+    font-weight: bold;      
+    padding: 0.1em 0.2em         
+}
+
+/* Week 1 */
+.week-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.week-images img {
+    max-width: 250px;      
+    height: auto;           
+    border-radius: 6px;     
+    object-fit: contain;   
+}
+
+ .askaway-image img {
+        max-width: 700px;
+        width: 100%;      
+        height: auto;     
+        display: block;   
+        margin: 1em auto; 
+ }
+    .single-image {
+        text-align: center; 
+        margin: 2em auto;
+    }
+    
+    .single-image img {
+        max-width: 600px;  
+        width: 80%;        
+        height: auto;      
+        border-radius: 6px;
+        display: inline-block; 
+    }
+
+
+
