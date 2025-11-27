@@ -20,7 +20,9 @@ body {
     font-size: 1.2em;         
 }
 .back-home a:hover {
-    text-decoration: underline; 
+    text-decoration: underline;
+    transition: color 0.3s, background-color 0.3s;  
+    color:hotpink;
 }
 
 
@@ -57,7 +59,12 @@ body {
     color: #063550;
     font-size: 2.5em;       
     font-weight: bold;      
-    padding: 0.1em 0.2em         
+    padding: 0.1em 0.2em;
+    transition: color 0.3s, background-color 0.3s; 
+}
+    
+    .weeks-row a:hover {
+        color:hotpink;
 }
 
 /* Week 1 */
